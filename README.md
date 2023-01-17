@@ -1,4 +1,5 @@
 # USTB_Washing_Machine
+## 项目功能：获取宿舍 空闲洗衣机 信息
 ## 此项目文件仅提供了app编写过程中的核心代码  
 ## 包括 recyclerview 的简单应用（可以当作框架代码使用）  
 ## 包括 okhttp 的简单应用  
