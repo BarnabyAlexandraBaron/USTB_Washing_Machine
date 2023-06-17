@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T13:53:03.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" version="21.4.0" etag="fL_KwiJpFxgUnf1FtQAB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T13:58:49.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="PT-i_Pu2AuTbg3KnsxzA" version="21.4.0" type="github">
   <diagram name="第 1 页" id="TV5158z8VS45f2kZdivl">
-    <mxGraphModel>
+    <mxGraphModel dx="1342" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yK53HvuVZMFZVqexLScC-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="400" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-1" target="yK53HvuVZMFZVqexLScC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-4" target="yK53HvuVZMFZVqexLScC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-4" value="预检查代码&lt;br&gt;输入" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-5" target="yK53HvuVZMFZVqexLScC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-5" value="规则集&lt;br&gt;输入" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-7" target="yK53HvuVZMFZVqexLScC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-7" value="Bash调用PMD" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-9" target="yK53HvuVZMFZVqexLScC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-9" value="PMD代码检查" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-11" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yK53HvuVZMFZVqexLScC-14" target="yK53HvuVZMFZVqexLScC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK53HvuVZMFZVqexLScC-14" value="PMD代码&lt;br&gt;分析报告存储" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
