@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T14:02:12.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" version="21.4.0" etag="xD5c0SIPQ5Q6Rp5Lb31x" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T14:11:05.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="oHFNQfr8rC7gH72caj0b" version="21.4.0" type="github">
   <diagram name="第 1 页" id="5X6V0mV8j9TiZotbV0M6">
-    <mxGraphModel>
+    <mxGraphModel dx="1342" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-4" target="5yerKywJZfB-PT7vi-1Q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-4" target="5yerKywJZfB-PT7vi-1Q-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="260" />
+              <mxPoint x="200" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-4" value="用户上传&lt;br&gt;代码？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="225" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-5" target="5yerKywJZfB-PT7vi-1Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-5" value="触发PreHook" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-6" target="5yerKywJZfB-PT7vi-1Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-6" value="触发PostHook" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-7" target="5yerKywJZfB-PT7vi-1Q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-7" value="获取项目Hash值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-8" target="5yerKywJZfB-PT7vi-1Q-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-8" value="报告存储&lt;br&gt;以及其它功能" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-9" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-16" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-20" target="5yerKywJZfB-PT7vi-1Q-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-20" value="Git Push&lt;br&gt;上传代码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="345" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-23" target="5yerKywJZfB-PT7vi-1Q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-23" value="等待代码&lt;br&gt;Push" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5yerKywJZfB-PT7vi-1Q-24" target="5yerKywJZfB-PT7vi-1Q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-24" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yerKywJZfB-PT7vi-1Q-29" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="156" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
